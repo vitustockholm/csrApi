@@ -1,0 +1,27 @@
+/* ul img {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 20px;
+}
+li {
+  padding: 5px;
+}
+header {
+  position: static;
+}
+
+.admin-output {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.hero {
+  padding: 0;
+} */
