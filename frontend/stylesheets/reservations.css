@@ -3,32 +3,48 @@ form {
   flex-direction: column;
   align-items: center;
   background-color: transparent;
+  /* max-width: 100%; */
 }
 
+form {
+  animation: up 1.2s;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid rgb(233, 203, 121);
+}
 form label {
   margin-bottom: 10px;
   margin-top: 15px;
-  color: white;
-  font-size: large;
+  color: rgb(16, 15, 15);
+  font-size: 2.9rem;
+  font-weight: 600;
+  width: 95%;
+  padding: 5px;
+  font-size: 30px;
+  letter-spacing: 3px;
 }
 
-/* form input[type='text'],
+form input[type='text'],
 form textarea {
-  padding: 5px 7px;
+  padding: 11px 7px;
+  width: 950px;
+  background-color: rgb(41, 39, 39);
+  color: white;
+  /* border: 1px solid rgb(181, 137, 43); */
+  font-weight: 500;
+  opacity: 0.6;
 }
 
 form input[type='submit'] {
   margin-top: 15px;
-  width: 100px;
-}  */
+  width: 150px;
+  height: 40px;
+}
 
-/* header {
-  position: static;
-} */
+form input:hover {
+  color: rgb(221, 69, 42);
+}
 
-/* .form-div {
-  border: 2px solid black;
-  align-items: center;
-} */
-
-/*  
+.container-reserves {
+  display: flex;
+}

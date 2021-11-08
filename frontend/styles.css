@@ -28,7 +28,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 section {
@@ -200,6 +200,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* animation-delay: 0.9s; */
 }
 
 /* ----------------------- */
@@ -311,11 +313,13 @@ header {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-right: -2px;
+
+  width: 350px;
 }
 
 .cta-btn {
   font-size: 1.3rem;
-  background-color: #fff;
+  background-color: var(--secondary-font-color);
   padding: 0.9rem, 1.8rem;
   color: var(--body-font-color);
   border-radius: 0.4rem;
@@ -361,14 +365,14 @@ header {
   margin-bottom: 3rem;
 }
 
-.reataurant-description p {
+.restaurant-description p {
   line-height: 1.6;
   margin-bottom: 2.4rem;
 }
 
 .body-btn {
   font-size: 1.5rem;
-  color: var(--secondary-font-color);
+  color: var(--primary-font-color);
   position: relative;
   transition: color 0.5s;
 }
@@ -423,12 +427,15 @@ header {
   background-size: cover;
 } */
 /* Footer */
+
 footer {
   padding: 7.9rem 0;
   background-color: #121212;
   color: #fff;
   position: relative;
+  margin: 0 auto;
   text-align: center;
+  min-width: 100%;
 }
 
 .back-to-top {
@@ -608,13 +615,18 @@ footer {
   .newsletter-form {
     width: 100%;
     max-width: 27.3rem;
-    margin: 0 1rem;
+    margin: 0;
   }
   .social-icons i {
     opacity: 1;
   }
   .newsletter-btn {
     margin-left: 7.5rem;
+    color: white;
+  }
+  .newsletter-btn:hover {
+    /* margin-left: 7.5rem; */
+    color: rgb(202, 103, 103);
   }
 }
 

@@ -7,7 +7,7 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>The Reserve</title>
+    <title>[ ARCDYNAMICS]</title>
     <!--Font awesome CDN-->
     <link
       rel="stylesheet"
@@ -40,9 +40,9 @@
             <li class="nav-item active">
               <a href="reserve.html" class="nav-link">Reservations</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="about.html" class="nav-link">Administration</a>
-            </li>
+            </li> -->
           </ul>
         </nav>
       </div>
@@ -50,33 +50,33 @@
     <!-- header ends:  -->
     <section class="hero" id="hero">
       <div class="container">
-        <h2 class="juoda sub-headline">
-          <span class="first-letter">O</span>rder
-        </h2>
-        <h1 class="sub-headline">The Tables</h1>
+        <h2 class="juoda sub-headline container-reserves">
+         
+        <h1 class="sub-headline"> <span class="first-letter reservas">O</span>rder
+         Tables</h1>
 
         <div class="headline-description">
           <div class="form-div">
             <form
               action="http://localhost:5000/api/order"
               method="POST"
-              style="margin-bottom: 1.5rem"
+              style="margin-bottom: 2.5rem"
             >
-              <label for="title">Color</label>
+              <label for="title">Color:</label>
               <input type="text" id="postColor" name="color" />
 
-              <label for="dimensions">Dimensions</label>
+              <label for="dimensions">Dimensions:</label>
               <input type="text" id="postDimensions" name="dimensions" />
 
-              <label for="material">Material</label>
+              <label for="material">Material:</label>
               <input type="text" id="postMaterial" name="material" />
 
-              <label for="image">Description</label>
+              <label for="image">Description:</label>
               <input type="text" id="postImage" name="image" />
 
-              <label for="price">Price</label>
+              <label for="price">Price:</label>
               <input type="text" id="postPrice" name="price" />
-              <br />
+
               <hr />
               <input type="submit" value="Order" class="btn body-btn" />
             </form>
@@ -102,7 +102,7 @@
     <!-- Tasteful recipes end.. -->
     <!-- Portfolio-Outputas -->
 
-    <footer>
+    <footer class="footer-content">
       <div class="container">
         <div class="back-to-top">
           <a href="#hero"><i class="fas fa-chevron-up"></i></a>
